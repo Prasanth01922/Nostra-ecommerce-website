@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nostra — Level Up Your Style</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ANNOUNCEMENT -->
+  <div class="announce">
+    Sign Up &amp; Get <strong>20% OFF</strong> Your First Order &nbsp;✦&nbsp; Free Shipping Over ₹999
+  </div>
+
+  <!-- NAV -->
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="index.html">Nostra</a>
+
+      <!-- CSS-only hamburger using checkbox trick -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#new-arrival">New Arrival</a></li>
+        <li><a href="#most-wanted">Most Wanted</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <a href="collections.html" class="nav-icon" title="Search">&#9906;</a>
+        <a href="#" class="nav-icon" title="Wishlist">&#9825;</a>
+        <a href="collections.html" class="btn-cart">Bag (0)</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner container">
+      <div class="hero-text">
+        <span class="hero-eyebrow">Summer Collection 2025</span>
+        <h1 class="hero-heading">Level Up<br><em>Your Style</em></h1>
+        <p class="hero-sub">with our Summer Collections</p>
+        <p class="hero-body">
+          Discover handpicked fashion that speaks who you are.
+          Premium quality, effortless silhouettes, and cuts made
+          for the everyday confident.
+        </p>
+        <div class="hero-actions">
+          <a href="collections.html" class="btn btn-dark">Shop Now</a>
+          <a href="#new-arrival" class="btn btn-line">Explore ↓</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-n">2,400+</span><span class="stat-l">Happy Customers</span></div>
+          <div class="stat-div"></div>
+          <div class="stat"><span class="stat-n">320+</span><span class="stat-l">Products</span></div>
+          <div class="stat-div"></div>
+          <div class="stat"><span class="stat-n">4.9 ★</span><span class="stat-l">Rating</span></div>
+        </div>
+      </div>
+      <div class="hero-img-wrap">
+        <img
+          src="./img/hero-model.avif"
+          alt="Summer Collection lookbook model"
+          class="hero-img"
+        />
+        <div class="hero-float-badge">
+          <span class="hfb-icon">✦</span>
+          <div>
+            <strong>New Arrivals</strong>
+            <span>Updated weekly</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BRANDS -->
+  <div class="brands-bar">
+    <div class="brands-inner">
+      <div class="brands-track">
+        <span class="brand-item">Puma</span>
+        <span class="brand-sep">✦</span>
+        <span class="brand-item">Adidas</span>
+        <span class="brand-sep">✦</span>
+        <span class="brand-item">Nike</span>
+        <span class="brand-sep">✦</span>
+        <span class="brand-item">Zara</span>
+        <span class="brand-sep">✦</span>
+        <span class="brand-item">H&amp;M</span>
+        <span class="brand-sep">✦</span>
+        <span class="brand-item">Levi's</span>
+        <span class="brand-sep">✦</span>
+        <span class="brand-item">Calvin Klein</span>
+        <span class="brand-sep">✦</span>
+        <span class="brand-item">Tommy Hilfiger</span>
+        <span class="brand-sep">✦</span>
+        <!-- duplicate for seamless loop -->
+        <span class="brand-item">Puma</span>
+        <span class="brand-sep">✦</span>
+        <span class="brand-item">Adidas</span>
+        <span class="brand-sep">✦</span>
+        <span class="brand-item">Nike</span>
+        <span class="brand-sep">✦</span>
+        <span class="brand-item">Zara</span>
+        <span class="brand-sep">✦</span>
+        <span class="brand-item">H&amp;M</span>
+        <span class="brand-sep">✦</span>
+        <span class="brand-item">Levi's</span>
+        <span class="brand-sep">✦</span>
+        <span class="brand-item">Calvin Klein</span>
+        <span class="brand-sep">✦</span>
+        <span class="brand-item">Tommy Hilfiger</span>
+        <span class="brand-sep">✦</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <div class="container">
+      <div class="features-header">
+        <span class="section-tag">Why Choose Us</span>
+        <h2>We Provide the Best<br><em>Customer Experiences</em></h2>
+        <p>We ensure every customer has a shopping experience they remember.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-ic">✦</div>
+          <h3>Original Products</h3>
+          <p>100% authentic items sourced directly from brands and certified distributors worldwide.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-ic">⬡</div>
+          <h3>Satisfaction Guarantee</h3>
+          <p>Not satisfied? Return within 30 days for a full refund — no questions, no hassle.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-ic">◈</div>
+          <h3>New Arrival Everyday</h3>
+          <p>Fresh drops land daily so your wardrobe always stays ahead of the curve.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-ic">▲</div>
+          <h3>Fast &amp; Free Shipping</h3>
+          <p>Free delivery on all orders above ₹999. Express options available at checkout.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW ARRIVALS -->
+  <section class="arrivals" id="new-arrival">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="section-tag">Fresh Drops</span>
+          <h2>New Arrivals</h2>
+        </div>
+        <a href="collections.html" class="link-arrow">View All &rarr;</a>
+      </div>
+
+      <div class="arrivals-grid">
+        <div class="arrival-card">
+          <img src="./img/arrival-women.png" alt="Women's collection" />
+          <div class="arrival-overlay">
+            <h3>Women's Edit</h3>
+            <a href="collections.html" class="arrival-link">Shop Now &rarr;</a>
+          </div>
+        </div>
+        <div class="arrival-card">
+          <img src="./img/arrival-men.png" alt="Men's collection" />
+          <div class="arrival-overlay">
+            <h3>Men's Essentials</h3>
+            <a href="collections.html" class="arrival-link">Shop Now &rarr;</a>
+          </div>
+        </div>
+        <div class="arrival-card">
+          <img src="./img/arrival-accessories.png" alt="Accessories" />
+          <div class="arrival-overlay">
+            <h3>Accessories</h3>
+            <a href="collections.html" class="arrival-link">Shop Now &rarr;</a>
+          </div>
+        </div>
+        <div class="arrival-card">
+          <img src="./img/arrival-sale.png" alt="Summer sale" />
+          <div class="arrival-overlay">
+            <h3>Summer Deals</h3>
+            <a href="collections.html" class="arrival-link">Shop Now &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MOST WANTED -->
+  <section class="wanted" id="most-wanted">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="section-tag">Best Sellers</span>
+          <h2>Most Wanted</h2>
+        </div>
+        <a href="collections.html" class="link-arrow">View All &rarr;</a>
+      </div>
+
+      <div class="products-grid">
+
+        <div class="p-card">
+          <div class="p-img-wrap">
+            <span class="p-badge new">New</span>
+            <img src="./img/product-floral-dress.png" alt="Floral Wrap Dress" />
+            <a href="collections.html" class="p-overlay">Add to Bag</a>
+          </div>
+          <div class="p-info">
+            <span class="p-cat">Women</span>
+            <h4 class="p-name">Floral Wrap Dress</h4>
+            <div class="p-price">₹89</div>
+            <div class="p-stars">★★★★★ <span>(128)</span></div>
+          </div>
+        </div>
+
+        <div class="p-card">
+          <div class="p-img-wrap">
+            <span class="p-badge sale">Sale</span>
+            <img src="./img/product-polo-tee.png" alt="Classic Polo Tee" />
+            <a href="collections.html" class="p-overlay">Add to Bag</a>
+          </div>
+          <div class="p-info">
+            <span class="p-cat">Men</span>
+            <h4 class="p-name">Classic Polo Tee</h4>
+            <div class="p-price">₹45 <s class="p-old">₹65</s></div>
+            <div class="p-stars">★★★★☆ <span>(94)</span></div>
+          </div>
+        </div>
+
+        <div class="p-card">
+          <div class="p-img-wrap">
+            <span class="p-badge hot">Hot</span>
+            <img src="./img/product-linen-blazer.png" alt="Linen Blazer" />
+            <a href="collections.html" class="p-overlay">Add to Bag</a>
+          </div>
+          <div class="p-info">
+            <span class="p-cat">Men</span>
+            <h4 class="p-name">Linen Blazer</h4>
+            <div class="p-price">₹120</div>
+            <div class="p-stars">★★★★★ <span>(67)</span></div>
+          </div>
+        </div>
+
+        <div class="p-card">
+          <div class="p-img-wrap">
+            <span class="p-badge new">New</span>
+            <img src="./img/product-tote-bag.png" alt="Summer Tote Bag" />
+            <a href="collections.html" class="p-overlay">Add to Bag</a>
+          </div>
+          <div class="p-info">
+            <span class="p-cat">Accessories</span>
+            <h4 class="p-name">Summer Tote Bag</h4>
+            <div class="p-price">₹38</div>
+            <div class="p-stars">★★★★☆ <span>(211)</span></div>
+          </div>
+        </div>
+
+        <div class="p-card">
+          <div class="p-img-wrap">
+            <img src="./img/product-crop-top.png" alt="Linen Crop Top" />
+            <a href="collections.html" class="p-overlay">Add to Bag</a>
+          </div>
+          <div class="p-info">
+            <span class="p-cat">Women</span>
+            <h4 class="p-name">Linen Crop Top</h4>
+            <div class="p-price">₹35</div>
+            <div class="p-stars">★★★★★ <span>(203)</span></div>
+          </div>
+        </div>
+
+        <div class="p-card">
+          <div class="p-img-wrap">
+            <span class="p-badge sale">Sale</span>
+            <img src="./img/product-silk-scarf.png" alt="Silk Scarf" />
+            <a href="collections.html" class="p-overlay">Add to Bag</a>
+          </div>
+          <div class="p-info">
+            <span class="p-cat">Accessories</span>
+            <h4 class="p-name">Silk Scarf</h4>
+            <div class="p-price">₹29 <s class="p-old">₹45</s></div>
+            <div class="p-stars">★★★★★ <span>(88)</span></div>
+          </div>
+        </div>
+
+        <div class="p-card">
+          <div class="p-img-wrap">
+            <img src="./img/product-denim-jacket.png" alt="Denim Jacket" />
+            <a href="collections.html" class="p-overlay">Add to Bag</a>
+          </div>
+          <div class="p-info">
+            <span class="p-cat">Men</span>
+            <h4 class="p-name">Denim Jacket</h4>
+            <div class="p-price">₹95</div>
+            <div class="p-stars">★★★★★ <span>(43)</span></div>
+          </div>
+        </div>
+
+        <div class="p-card">
+          <div class="p-img-wrap">
+            <span class="p-badge hot">Hot</span>
+            <img src="./img/product-evening-blouse.png" alt="Evening Blouse" />
+            <a href="collections.html" class="p-overlay">Add to Bag</a>
+          </div>
+          <div class="p-info">
+            <span class="p-cat">Women</span>
+            <h4 class="p-name">Evening Blouse</h4>
+            <div class="p-price">₹75</div>
+            <div class="p-stars">★★★★★ <span>(56)</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LIMITED OFFER -->
+  <section class="offer">
+    <div class="container">
+      <div class="offer-box">
+        <div class="offer-text">
+          <span class="section-tag" style="color:#c8a96e; border-color:rgba(200,169,110,.3)">Limited Offer</span>
+          <h2 class="offer-heading">35% OFF<br>First 30 Customers</h2>
+          <p>Use code <strong>NOSTRA35</strong> at checkout. Hurry — limited time only.</p>
+          <a href="collections.html" class="btn btn-gold">Claim Offer &rarr;</a>
+        </div>
+        <div class="offer-img-wrap">
+          <img src="./img/offer-banner.png" alt="Limited offer" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="nl-inner">
+        <span class="section-tag">Stay in the loop</span>
+        <h2>Join Our Newsletter</h2>
+        <p>Exclusive deals, new drops, and style tips — straight to your inbox. No spam.</p>
+        <form class="nl-form" action="#" method="GET">
+          <input type="email" name="email" placeholder="Enter your email address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="index.html" style="color:#fff">Nostra</a>
+          <p>Your destination for premium fashion. Curated styles for every occasion and every mood.</p>
+          <div class="footer-socials">
+            <a href="#" class="fsoc">f</a>
+            <a href="#" class="fsoc">ig</a>
+            <a href="#" class="fsoc">tw</a>
+            <a href="#" class="fsoc">yt</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Shop</h5>
+          <ul>
+            <li><a href="collections.html">All Collections</a></li>
+            <li><a href="collections.html">New Arrivals</a></li>
+            <li><a href="collections.html">Best Sellers</a></li>
+            <li><a href="collections.html">Sale</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Help</h5>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Size Guide</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 <a href="index.html">Nostra.com</a>. All rights reserved.</span>
+        <span>💳 🏦 📱</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collections — Nostra</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="announce">
+    Sign Up &amp; Get <strong>20% OFF</strong> Your First Order &nbsp;✦&nbsp; Free Shipping Over ₹999
+  </div>
+
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="index.html">Nostra</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#new-arrival">New Arrival</a></li>
+        <li><a href="index.html#most-wanted">Most Wanted</a></li>
+        <li><a href="collections.html" class="active">Collections</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="#" class="nav-icon" title="Wishlist">&#9825;</a>
+        <a href="collections.html" class="btn-cart">Bag (0)</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page hero -->
+  <div class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> &rsaquo; Collections</p>
+      <span class="section-tag">All Products</span>
+      <h1>Our Collections</h1>
+      <p>Every style, every season — curated for you.</p>
+    </div>
+  </div>
+
+  <!--
+    CSS-only filter: each filter tab is an anchor pointing to an ID.
+    :target pseudo-class shows/hides the matching group.
+    When no filter is active (#all is default), all cards show.
+  -->
+
+  <!-- Filter tabs -->
+  <div class="filter-bar">
+    <div class="container filter-bar-inner">
+      <div class="filter-tabs">
+        <a href="#all"      class="filter-tab" id="tab-all">All</a>
+        <a href="#women"    class="filter-tab" id="tab-women">Women</a>
+        <a href="#men"      class="filter-tab" id="tab-men">Men</a>
+        <a href="#acc"      class="filter-tab" id="tab-acc">Accessories</a>
+        <a href="#sale"     class="filter-tab" id="tab-sale">Sale</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Products section -->
+  <section class="coll-section" id="all">
+    <div class="container">
+
+      <!-- ALL (default, shown when no filter or #all) -->
+      <div class="coll-group" id="group-all">
+
+        <!-- WOMEN group -->
+        <div class="coll-subgroup" id="women">
+          <div class="coll-sub-label">Women</div>
+          <div class="products-grid">
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <span class="p-badge new">New</span>
+                <img src="img/product-floral-dress.png" alt="Floral Wrap Dress" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Women</span>
+                <h4 class="p-name">Floral Wrap Dress</h4>
+                <div class="p-price">₹89</div>
+                <div class="p-stars">★★★★★ <span>(128)</span></div>
+              </div>
+            </div>
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <span class="p-badge sale">Sale</span>
+                <img src="img/product-maxi-skirt.png" alt="Boho Maxi Skirt" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Women</span>
+                <h4 class="p-name">Boho Maxi Skirt</h4>
+                <div class="p-price">₹62 <s class="p-old">₹89</s></div>
+                <div class="p-stars">★★★★☆ <span>(74)</span></div>
+              </div>
+            </div>
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <img src="img/product-crop-top.png" alt="Linen Crop Top" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Women</span>
+                <h4 class="p-name">Linen Crop Top</h4>
+                <div class="p-price">₹35</div>
+                <div class="p-stars">★★★★★ <span>(203)</span></div>
+              </div>
+            </div>
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <span class="p-badge hot">Hot</span>
+                <img src="img/product-evening-blouse.png" alt="Evening Blouse" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Women</span>
+                <h4 class="p-name">Evening Blouse</h4>
+                <div class="p-price">₹75</div>
+                <div class="p-stars">★★★★★ <span>(56)</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- MEN group -->
+        <div class="coll-subgroup" id="men">
+          <div class="coll-sub-label">Men</div>
+          <div class="products-grid">
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <span class="p-badge sale">Sale</span>
+                <img src="img/product-polo-tee.png" alt="Classic Polo Tee" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Men</span>
+                <h4 class="p-name">Classic Polo Tee</h4>
+                <div class="p-price">₹45 <s class="p-old">₹65</s></div>
+                <div class="p-stars">★★★★☆ <span>(94)</span></div>
+              </div>
+            </div>
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <span class="p-badge hot">Hot</span>
+                <img src="img/product-linen-blazer.png" alt="Linen Blazer" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Men</span>
+                <h4 class="p-name">Linen Blazer</h4>
+                <div class="p-price">₹120</div>
+                <div class="p-stars">★★★★★ <span>(67)</span></div>
+              </div>
+            </div>
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <span class="p-badge new">New</span>
+                <img src="img/product-chino-pants.png" alt="Slim Chino Pants" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Men</span>
+                <h4 class="p-name">Slim Chino Pants</h4>
+                <div class="p-price">₹48</div>
+                <div class="p-stars">★★★★☆ <span>(182)</span></div>
+              </div>
+            </div>
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <img src="img/product-denim-jacket.png" alt="Denim Jacket" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Men</span>
+                <h4 class="p-name">Denim Jacket</h4>
+                <div class="p-price">₹95</div>
+                <div class="p-stars">★★★★★ <span>(43)</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ACCESSORIES group -->
+        <div class="coll-subgroup" id="acc">
+          <div class="coll-sub-label">Accessories</div>
+          <div class="products-grid">
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <span class="p-badge new">New</span>
+                <img src="img/product-tote-bag.png" alt="Summer Tote Bag" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Accessories</span>
+                <h4 class="p-name">Summer Tote Bag</h4>
+                <div class="p-price">₹38</div>
+                <div class="p-stars">★★★★☆ <span>(211)</span></div>
+              </div>
+            </div>
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <span class="p-badge sale">Sale</span>
+                <img src="img/product-silk-scarf.png" alt="Silk Scarf" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Accessories</span>
+                <h4 class="p-name">Silk Scarf</h4>
+                <div class="p-price">₹29 <s class="p-old">₹45</s></div>
+                <div class="p-stars">★★★★★ <span>(88)</span></div>
+              </div>
+            </div>
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <img src="img/product-leather-belt.png" alt="Leather Belt" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Accessories</span>
+                <h4 class="p-name">Leather Belt</h4>
+                <div class="p-price">₹25</div>
+                <div class="p-stars">★★★★☆ <span>(162)</span></div>
+              </div>
+            </div>
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <span class="p-badge hot">Hot</span>
+                <img src="img/product-sun-hat.png" alt="Straw Sun Hat" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Accessories</span>
+                <h4 class="p-name">Straw Sun Hat</h4>
+                <div class="p-price">₹22</div>
+                <div class="p-stars">★★★★★ <span>(97)</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SALE group -->
+        <div class="coll-subgroup" id="sale">
+          <div class="coll-sub-label">On Sale</div>
+          <div class="products-grid">
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <span class="p-badge sale">Sale</span>
+                <img src="img/product-polo-tee.png" alt="Classic Polo Tee" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Men</span>
+                <h4 class="p-name">Classic Polo Tee</h4>
+                <div class="p-price">₹45 <s class="p-old">₹65</s></div>
+                <div class="p-stars">★★★★☆ <span>(94)</span></div>
+              </div>
+            </div>
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <span class="p-badge sale">Sale</span>
+                <img src="img/product-maxi-skirt.png" alt="Boho Maxi Skirt" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Women</span>
+                <h4 class="p-name">Boho Maxi Skirt</h4>
+                <div class="p-price">₹62 <s class="p-old">₹89</s></div>
+                <div class="p-stars">★★★★☆ <span>(74)</span></div>
+              </div>
+            </div>
+
+            <div class="p-card">
+              <div class="p-img-wrap">
+                <span class="p-badge sale">Sale</span>
+                <img src="img/product-silk-scarf.png" alt="Silk Scarf" />
+                <a href="#" class="p-overlay">Add to Bag</a>
+              </div>
+              <div class="p-info">
+                <span class="p-cat">Accessories</span>
+                <h4 class="p-name">Silk Scarf</h4>
+                <div class="p-price">₹29 <s class="p-old">₹45</s></div>
+                <div class="p-stars">★★★★★ <span>(88)</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div><!-- /group-all -->
+    </div><!-- /container -->
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="nl-inner">
+        <span class="section-tag">Stay in the loop</span>
+        <h2>Join Our Newsletter</h2>
+        <p>Exclusive deals and new drops — straight to your inbox.</p>
+        <form class="nl-form" action="#" method="GET">
+          <input type="email" name="email" placeholder="Enter your email address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="index.html" style="color:#fff">Nostra</a>
+          <p>Your destination for premium fashion. Curated styles for every occasion.</p>
+          <div class="footer-socials">
+            <a href="#" class="fsoc">f</a>
+            <a href="#" class="fsoc">ig</a>
+            <a href="#" class="fsoc">tw</a>
+            <a href="#" class="fsoc">yt</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Shop</h5>
+          <ul>
+            <li><a href="collections.html">All Collections</a></li>
+            <li><a href="collections.html">New Arrivals</a></li>
+            <li><a href="collections.html">Sale</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Help</h5>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 <a href="index.html">Nostra.com</a>. All rights reserved.</span>
+        <span>💳 🏦 📱</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — Nostra</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="announce">
+    Sign Up &amp; Get <strong>20% OFF</strong> Your First Order &nbsp;✦&nbsp; Free Shipping Over ₹999
+  </div>
+
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="index.html">Nostra</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#new-arrival">New Arrival</a></li>
+        <li><a href="index.html#most-wanted">Most Wanted</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="#" class="nav-icon" title="Wishlist">&#9825;</a>
+        <a href="collections.html" class="btn-cart">Bag (0)</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> &rsaquo; Contact Us</p>
+      <span class="section-tag">Get in Touch</span>
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you. Our team replies within 24 hours.</p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Left: info -->
+        <div class="contact-info">
+          <span class="section-tag">Reach Us</span>
+          <h2>Let's Talk</h2>
+          <p>Have a question about your order, our products, or anything else? We're here to help.</p>
+
+          <div class="contact-cards">
+            <div class="cinfo-card">
+              <div class="cinfo-ic">📍</div>
+              <div>
+                <strong>Our Store</strong>
+                <p>12 Fashion Street, Style District<br>Mumbai, Maharashtra 400001</p>
+              </div>
+            </div>
+            <div class="cinfo-card">
+              <div class="cinfo-ic">📞</div>
+              <div>
+                <strong>Phone</strong>
+                <p>+91 98765 43210<br>Mon–Sat, 9am – 6pm IST</p>
+              </div>
+            </div>
+            <div class="cinfo-card">
+              <div class="cinfo-ic">✉</div>
+              <div>
+                <strong>Email</strong>
+                <p>hello@nostra.com<br>We reply within 24 hours</p>
+              </div>
+            </div>
+            <div class="cinfo-card">
+              <div class="cinfo-ic">💬</div>
+              <div>
+                <strong>Live Chat</strong>
+                <p>Available Mon–Fri<br>10am – 5pm IST</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <p class="csc-label">Follow Us</p>
+            <div class="footer-socials" style="margin-top:.5rem">
+              <a href="#" class="fsoc dark">f</a>
+              <a href="#" class="fsoc dark">ig</a>
+              <a href="#" class="fsoc dark">tw</a>
+              <a href="#" class="fsoc dark">yt</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: form -->
+        <div class="contact-form-wrap">
+          <div class="form-card">
+            <span class="section-tag">Send a Message</span>
+            <h3>How can we help?</h3>
+            <p>Fill out the form below and we'll get back to you.</p>
+
+            <form class="cform" action="#" method="GET">
+              <div class="cform-row">
+                <div class="cform-group">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="fname" placeholder="John" required />
+                </div>
+                <div class="cform-group">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lname" placeholder="Doe" required />
+                </div>
+              </div>
+              <div class="cform-row">
+                <div class="cform-group">
+                  <label for="cemail">Email</label>
+                  <input type="email" id="cemail" name="email" placeholder="john@example.com" required />
+                </div>
+                <div class="cform-group">
+                  <label for="cphone">Phone (optional)</label>
+                  <input type="tel" id="cphone" name="phone" placeholder="+91 98765 43210" />
+                </div>
+              </div>
+              <div class="cform-group">
+                <label for="csubject">Subject</label>
+                <select id="csubject" name="subject" required>
+                  <option value="" disabled selected>Select a topic…</option>
+                  <option>Order Enquiry</option>
+                  <option>Product Information</option>
+                  <option>Returns &amp; Refunds</option>
+                  <option>Shipping &amp; Delivery</option>
+                  <option>Feedback</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="cform-group">
+                <label for="cmessage">Message</label>
+                <textarea id="cmessage" name="message" rows="5" placeholder="Tell us how we can help…" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark" style="width:100%; justify-content:center">Send Message</button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="faq-header">
+        <span class="section-tag">Quick Answers</span>
+        <h2>Frequently Asked</h2>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-card">
+          <h4>How long does shipping take?</h4>
+          <p>Standard delivery is 3–5 business days. Express options (1–2 days) are available at checkout.</p>
+        </div>
+        <div class="faq-card">
+          <h4>What is your return policy?</h4>
+          <p>Free returns within 30 days for all unworn, unwashed items with original tags attached.</p>
+        </div>
+        <div class="faq-card">
+          <h4>How do I track my order?</h4>
+          <p>Once shipped, you'll receive a tracking link via email. You can also check your account dashboard.</p>
+        </div>
+        <div class="faq-card">
+          <h4>Do you ship internationally?</h4>
+          <p>Yes — we ship to 40+ countries. International delivery takes 7–14 business days.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="nl-inner">
+        <span class="section-tag">Stay in the loop</span>
+        <h2>Join Our Newsletter</h2>
+        <p>Exclusive deals and new drops — straight to your inbox.</p>
+        <form class="nl-form" action="#" method="GET">
+          <input type="email" name="email" placeholder="Enter your email address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="index.html" style="color:#fff">Nostra</a>
+          <p>Your destination for premium fashion. Curated styles for every occasion.</p>
+          <div class="footer-socials">
+            <a href="#" class="fsoc">f</a>
+            <a href="#" class="fsoc">ig</a>
+            <a href="#" class="fsoc">tw</a>
+            <a href="#" class="fsoc">yt</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Shop</h5>
+          <ul>
+            <li><a href="collections.html">All Collections</a></li>
+            <li><a href="collections.html">New Arrivals</a></li>
+            <li><a href="collections.html">Sale</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Help</h5>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 <a href="index.html">Nostra.com</a>. All rights reserved.</span>
+        <span>💳 🏦 📱</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
